@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OOXX_APP</string>
+    <string name="load_name">OOXX遊戲</string>
+    <string name="no">-</string>
+    <string name="o">O</string>
+    <string name="x">X</string>
+    <string name="repeat">重複選取</string>
+    <string name="O_win">O獲勝!!!!!!!</string>
+    <string name="X_win">X獲勝!!!!!!!</string>
+    <string name="Reset">重新開始</string>
+</resources>
