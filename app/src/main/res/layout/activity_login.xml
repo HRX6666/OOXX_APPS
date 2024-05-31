@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical"
+    android:background="@drawable/bg_first">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="520dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_bt"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#689F51"
+            android:text="Login"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            app:backgroundTintMode="multiply"
+            app:cornerRadius="5dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/enroll_bt"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="#689F51"
+            android:text="Enroll"
+            android:textSize="20dp"
+            app:backgroundTintMode="multiply"
+            android:layout_marginLeft="30dp"
+            app:cornerRadius="5dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
